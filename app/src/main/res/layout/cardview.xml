@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/places_list">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/recyclerview_border">
+
+        <TextView
+            android:id="@+id/places_name"
+            android:text="name"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#fff"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:text="Address"
+            android:id="@+id/places_address"
+            android:layout_width="match_parent"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/places_name"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+</RelativeLayout>

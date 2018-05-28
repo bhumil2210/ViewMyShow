@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bhumil.test.viewmyshow.MainActivity"
+    android:background="@drawable/index">
+
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:text="01/02/2018"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="114dp"
+        android:background="@drawable/myborder"/>
+
+    <Button
+        android:background="@drawable/ic_date_range_black_24dp"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/date"
+        android:layout_toStartOf="@+id/date"
+        android:id="@+id/btn"
+        android:onClick="setDate"/>
+
+    <Button
+        android:id="@+id/Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="GO"
+        android:onClick="Searchactivity"/>
+
+</RelativeLayout>

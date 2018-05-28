@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "581681709917",
+    "firebase_url": "https://viewmyshow-1527356689160.firebaseio.com",
+    "project_id": "viewmyshow-1527356689160",
+    "storage_bucket": "viewmyshow-1527356689160.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581681709917:android:4f886e732598d415",
+        "android_client_info": {
+          "package_name": "bhumil.test.viewmyshow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581681709917-8085vu7t71b9hs8bio5ba0gptkmghr56.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "581681709917-8085vu7t71b9hs8bio5ba0gptkmghr56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGgc3ZbLcr2QkCHHqoigv3b_FSJrGHGIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
